@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+O código fornecido é um exemplo básico de um componente de currículo em React, seguindo as diretrizes mencionadas anteriormente. Vou explicar algumas partes-chave do código:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O componente Resume é um componente de função em React que representa a estrutura do currículo.
 
-## Available Scripts
+A função useState é usada para definir um estado local chamado language, que controla o idioma atual do currículo. Por padrão, o idioma é definido como 'portuguese'.
 
-In the project directory, you can run:
+A função toggleLanguage é chamada quando o botão de alternância de idioma é clicado. Ela atualiza o estado language para alternar entre 'portuguese' e 'english'.
 
-### `npm start`
+O retorno do componente Resume é a estrutura do currículo em si. O componente é envolvido em uma div com a classe "resume".
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+A div com a classe "background" contém as formas geométricas, como círculo, trapézio e losango, que foram mencionadas anteriormente. Essas formas são estilizadas com as classes correspondentes no arquivo CSS.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+O componente Container do Bootstrap é usado para criar um contêiner responsivo para o conteúdo do currículo.
 
-### `npm test`
+As seções do currículo, como "Informações Pessoais", "Educação", "Experiência" e "Habilidades", são representadas por divs com as classes correspondentes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+As seções do currículo são divididas em colunas usando o componente Col do Bootstrap. As colunas são definidas com a classe "col" e também têm a classe "gradient-bg" para aplicar o plano de fundo gradiente.
 
-### `npm run build`
+Dentro de cada seção, as informações relevantes são renderizadas usando tags HTML apropriadas, como h2, p, ul e li.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+O idioma do currículo é alternado dinamicamente com base no estado language. Isso é feito usando uma lógica condicional nas tags HTML para exibir o texto apropriado com base no idioma atual.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Certifique-se de importar as dependências necessárias, como o React Bootstrap, para que o código funcione corretamente. Além disso, você pode adicionar estilos adicionais no arquivo CSS referenciado no código para personalizar a aparência do currículo de acordo com suas preferências.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Lembre-se de que o código fornecido é apenas um exemplo básico e pode ser estendido e personalizado de acordo com suas necessidades específicas.

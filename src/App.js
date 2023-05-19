@@ -115,17 +115,17 @@ const Resume = () => {
         <div class="d-flex justify-content-center">
           {/* Ícones de mídia social */}
           <div class="m-2 column">
-            <a href="https://www.linkedin.com/in/hugo-leonardo-p-a-495a40233/" target="_blank">
+            <a href="https://www.linkedin.com/in/hugo-leonardo-p-a-495a40233/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faLinkedin} style={{ fontSize: '40px' }} />
             </a>
           </div>
           <div class="m-2 column">
-            <a href="https://codepen.io/huguinho" target="_blank">
+            <a href="https://codepen.io/huguinho" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faCodepen} style={{ fontSize: '40px' }} />
             </a>
           </div>
           <div class="m-2 column">
-            <a href="https://github.com/hugolpa/medical_record" target="_blank">
+            <a href="https://github.com/hugolpa/medical_record" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faGithub} style={{ fontSize: '40px' }} />
             </a>
           </div>

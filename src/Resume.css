@@ -1,101 +1,108 @@
 .resume {
-  position: relative;
-  z-index: 1;
+  position: relative; /* Define a posição como relativa */
+  z-index: 1; /* Define a ordem de empilhamento */
 }
 
 .background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  z-index: 0;
+  position: fixed; /* Define a posição como fixa */
+  top: 0; /* Define a distância do topo */
+  left: 0; /* Define a distância da esquerda */
+  width: 100%; /* Define a largura */
+  height: 100%; /* Define a altura */
+  pointer-events: none; /* Desabilita eventos de ponteiro */
+  z-index: 0; /* Define a ordem de empilhamento */
 }
 
 .shape {
-  position: absolute;
-  opacity: 0.3;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+  position: absolute; /* Define a posição como absoluta */
+  opacity: 0.3; /* Define a opacidade */
+  animation-duration: 4s; /* Define a duração da animação */
+  animation-iteration-count: infinite; /* Define o número de iterações da animação */
+  animation-timing-function: linear; /* Define a função de temporização da animação */
 }
 
 .circle {
-  width: 50px;
-  height: 50px;
-  background-color: #ff7f50;
-  border-radius: 50%;
-  animation-name: moveCircle;
+  width: 50px; /* Define a largura */
+  height: 50px; /* Define a altura */
+  background-color: #ff7f50; /* Define a cor de fundo */
+  border-radius: 50%; /* Define o raio da borda */
+  animation-name: moveCircle; /* Define o nome da animação */
 }
 
 .trapezoid {
-  width: 60px;
-  height: 0;
-  border-bottom: 60px solid #00bfff;
-  border-left: 20px solid transparent;
-  border-right: 20px solid transparent;
-  animation-name: moveTrapezoid;
+  width: 60px; /* Define a largura */
+  height: 0; /* Define a altura */
+  border-bottom: 60px solid #00bfff; /* Define a borda inferior */
+  border-left: 20px solid transparent; /* Define a borda esquerda */
+  border-right: 20px solid transparent; /* Define a borda direita */
+  animation-name: moveTrapezoid; /* Define o nome da animação */
 }
 
 .rhombus {
-  width: 50px;
-  height: 50px;
-  background-color: #7fffd4;
-  transform: rotate(45deg);
-  animation-name: moveRhombus;
+  width: 50px; /* Define a largura */
+  height: 50px; /* Define a altura */
+  background-color: #7fffd4; /* Define a cor de fundo */
+  transform: rotate(45deg); /* Aplica uma rotação */
+  animation-name: moveRhombus; /* Define o nome da animação */
 }
 
 @keyframes moveCircle {
   0% {
-    transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1); /* Define a transformação inicial */
   }
   100% {
-    transform: translate(calc(100vw - 50px), calc(100vh - 50px)) scale(0.7);
+    transform: translate(calc(100vw - 50px), calc(100vh - 50px)) scale(0.7); /* Define a transformação final */
   }
 }
 
 @keyframes moveTrapezoid {
   0% {
-    transform: translateX(0);
+    transform: translateX(0); /* Define a transformação inicial */
   }
   100% {
-    transform: translateX(calc(100vw - 60px));
+    transform: translateX(calc(100vw - 60px)); /* Define a transformação final */
   }
 }
 
 @keyframes moveRhombus {
   0% {
-    transform: translateY(0);
+    transform: translateY(0); /* Define a transformação inicial */
   }
   100% {
-    transform: translateY(calc(100vh - 50px));
+    transform: translateY(calc(100vh - 50px)); /* Define a transformação final */
   }
 }
 
 .gradient-bg {
-  background: linear-gradient(180deg, rgba(255, 127, 80, 0.7), rgba(0, 191, 255, 0.7));
+  background: linear-gradient(180deg, rgba(255, 127, 80, 0.7), rgba(0, 191, 255, 0.7)); /* Define um plano de fundo gradiente */
 }
 
 /* columns.css */
 
 .column {
-  position: relative;
-  transition: transform 0.3s ease;
+  position: relative; /* Define a posição como relativa */
+  transition: transform 0.3s ease; /* Define a transição */
 }
 
 .column:hover {
-  transform: translateY(-10px);
+  transform: translateY(-10px); /* Define a transformação ao passar o mouse */
 }
 
-    
-/* columns.css */
-
-.column {
-  position: relative;
-  transition: transform 0.3s ease;
+.skills {
+  background-color: rgba(0, 123, 255, 0.3); /* Define a cor de fundo com transparência */
+  padding: 20px; /* Define o preenchimento interno */
+  margin-top: 20px; /* Define a margem superior */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra sutil */
 }
 
-.column:hover {
-  transform: translateY(-10px);
+.certificate-image {
+  width: 300px; /* Define a largura */
+}
+
+.certificates-container {
+  display: flex; /* Define o modo de exibição como flex */
+  flex-direction: column; /* Define a direção da flexão como coluna */
+  align-items: center; /* Centraliza os itens horizontalmente */
+  text-align: center; /* Centraliza o texto horizontalmente */
 }

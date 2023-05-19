@@ -130,7 +130,7 @@ const Resume = () => {
             </a>
           </div>
           <div class="m-2 column">
-            <a href="https://www.reddit.com/user/huguinho_dev/" target="_blank">
+            <a href="https://www.reddit.com/user/huguinho_dev/" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faReddit} style={{ fontSize: '40px' }} />
             </a>
           </div>

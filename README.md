@@ -1,4 +1,3 @@
-O código fornecido é um exemplo básico de um componente de currículo em React, seguindo as diretrizes mencionadas anteriormente. Vou explicar algumas partes-chave do código:
 
 O componente Resume é um componente de função em React que representa a estrutura do currículo.
 

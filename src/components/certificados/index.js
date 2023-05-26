@@ -18,6 +18,11 @@ const CertificateList = () => {
       imageUrl: 'https://i.ibb.co/MN4d5G3/Fire-Shot-Capture-004-www-freecodecamp-org.png',
       link: 'https://www.freecodecamp.org/certification/fccd9852319-c758-4155-a2ef-a8ffb02a5519/javascript-algorithms-and-data-structures',
     },
+    {
+      title: 'Javascript CodinGame Certified',
+      imageUrl: 'https://i.ibb.co/FqxJzZC/Fire-Shot-Capture-007-Codin-Game-Certification-www-codingame-com.png',
+      link: 'https://www.codingame.com/certification/OGtKttmWNic14xNvidPPGA',
+    },
     // Adicione mais objetos de certificado conforme necessário
   ];
 
@@ -26,7 +31,7 @@ const CertificateList = () => {
       <h2 className='column'>Meus Certificados</h2>
       <Row className="justify-content-center">
         {certificates.map((certificate, index) => (
-          <Col key={index} className="m-4" md={3}>
+          <Col key={index} className="mt-4" md={4}>
             <h3 className='column'>{certificate.title}</h3>
             <a href={certificate.link} target="_blank" rel="noopener noreferrer">
               <img src={certificate.imageUrl} alt={certificate.title} className="certificate-image column" />

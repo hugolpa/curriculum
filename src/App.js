@@ -54,7 +54,6 @@ function Resume() {
               <p>
                 <strong>{language === 'portuguese' ? 'Instituição:' : 'Institution:'}</strong> Universidade UniCEUB
               </p>
-              
             </div>
           </Col>
         </Row>
@@ -123,7 +122,7 @@ function Resume() {
             </a>
           </div>
           <div className="m-2 column">
-            <a href="https://www.codingame.com/certification/OGtKttmWNic14xNvidPPGA" target="_blank" rel="noreferrer">
+            <a href="https://www.codingame.com/profile/a48329b9d3dcd3f03c2748f028bfc82e4724984" target="_blank" rel="noreferrer">
               <FontAwesomeIcon icon={faCode} style={{ fontSize: '40px' }} />
             </a>
           </div>

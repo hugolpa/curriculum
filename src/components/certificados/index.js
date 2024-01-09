@@ -5,7 +5,7 @@ const CertificateList = () => {
   const certificates = [
     {
       title: 'Front-End Development Libraries',
-      imageUrl: 'https://media.licdn.com/dms/image/C5622AQHnZverM2CEEA/feedshare-shrink_1280/0/1651588898900?e=1687392000&v=beta&t=mZVWHbYBctqaAPlyct5xeALdxPsntCrbEmWZIWhIwUM',
+      imageUrl: 'https://i.ibb.co/9yYw2PZ/Captura-de-tela-2024-01-09-094908.png',
       link: 'https://www.freecodecamp.org/certification/fccd9852319-c758-4155-a2ef-a8ffb02a5519/front-end-development-libraries',
     },
     {

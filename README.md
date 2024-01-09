@@ -19,6 +19,6 @@ Dentro de cada seção, as informações relevantes são renderizadas usando tag
 
 O idioma do currículo é alternado dinamicamente com base no estado language. Isso é feito usando uma lógica condicional nas tags HTML para exibir o texto apropriado com base no idioma atual.
 
-Certifique-se de importar as dependências necessárias, como o React Bootstrap, para que o código funcione corretamente. Além disso, você pode adicionar estilos adicionais no arquivo CSS referenciado no código para personalizar a aparência do currículo de acordo com suas preferências.
+Certifique-se de importar as dependências necessárias, como o React Bootstrap, para que o código funcione corretamente. 
 
-Lembre-se de que o código fornecido é apenas um exemplo básico e pode ser estendido e personalizado de acordo com suas necessidades específicas.
+

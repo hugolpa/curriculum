@@ -10,7 +10,7 @@ const CertificateList = () => {
     },
     {
       title: 'Responsive Web Design',
-      imageUrl: 'https://ibb.co/92wTBnX',
+      imageUrl: 'https://i.ibb.co/6bvPGYh/Captura-de-tela-2024-01-09-094410.png',
       link: 'https://www.freecodecamp.org/certification/fccd9852319-c758-4155-a2ef-a8ffb02a5519/responsive-web-design',
     },
     {

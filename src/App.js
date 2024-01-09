@@ -30,7 +30,7 @@ function Resume() {
           <Col md={4} className="text-center column">
             <div className="profile-picture skills">
               <img
-                src="https://avatars.githubusercontent.com/u/37938486?v=4"
+                src="https://i.ibb.co/qJzW21g/Imagem-do-Whats-App-de-2024-01-09-s-10-59-44-91d8f834.jpg"
                 alt="Profile"
                 className="img-fluid rounded-circle column"
               />

@@ -10,7 +10,7 @@ const CertificateList = () => {
     },
     {
       title: 'Responsive Web Design',
-      imageUrl: 'https://media.licdn.com/dms/image/C4D22AQFElWBRGA_FBQ/feedshare-shrink_1280/0/1650474249816?e=1687392000&v=beta&t=L095wew03t9a2Op4jSXBr_SXLteZh0ucS04aNBO3vRM',
+      imageUrl: 'https://ibb.co/92wTBnX',
       link: 'https://www.freecodecamp.org/certification/fccd9852319-c758-4155-a2ef-a8ffb02a5519/responsive-web-design',
     },
     {
